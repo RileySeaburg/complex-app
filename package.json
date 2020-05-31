@@ -1,0 +1,28 @@
+{
+  "name": "Complex-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileySeaburg/complex-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RileySeaburg/complex-app/issues"
+  },
+  "homepage": "https://github.com/RileySeaburg/complex-app#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "validator": "^13.0.0"
+  }
+}
